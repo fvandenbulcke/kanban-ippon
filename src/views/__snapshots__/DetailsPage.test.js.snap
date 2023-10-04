@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailsPage/> should render 1`] = `
+<div>
+  <div>
+    <h1
+      class="title"
+    >
+      Kanban: Gestion de projet
+    </h1>
+    <div
+      class="task-details"
+    >
+      <div>
+        <div
+          class="task-details-section-title"
+        >
+          Details: 
+        </div>
+        <div
+          class="task-details-section-content"
+        >
+          <div
+            data-testid="task-id"
+          >
+            <span
+              class="task-details-section-content-title"
+            >
+              task: 
+            </span>
+            <span>
+              1
+            </span>
+          </div>
+          <div
+            data-testid="task-title"
+          >
+            <span
+              class="task-details-section-content-title"
+            >
+              Feature: 
+            </span>
+            <span>
+              my super feature
+            </span>
+          </div>
+          <div
+            data-testid="task-status"
+          >
+            <span
+              class="task-details-section-content-title"
+            >
+              Status: 
+            </span>
+            <span>
+              DOING
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="task-description"
+      >
+        <div
+          class="task-details-section-title"
+        >
+          Description: 
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

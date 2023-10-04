@@ -1,0 +1,66 @@
+.title {
+  text-align: center;
+  margin: 30px 5px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0px 20px;
+  gap: 20px;
+}
+
+.task {
+  border: solid black 1px;
+  cursor: pointer;
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 20px;
+
+  &-green {
+    @extend .task;
+    background-color: PaleGreen;
+  }
+
+  &-blue {
+    @extend .task;
+    background-color: LightSkyBlue;
+  }
+
+  &-red {
+    @extend .task;
+    background-color: LightPink;
+  }
+
+  &-yellow {
+    @extend .task;
+    background-color: Moccasin;
+  }
+
+  &-violet {
+    @extend .task;
+    background-color: Plum;
+  }
+
+
+}
+
+.task-title {
+  text-align: center;
+}
+
+.task-content {
+  width: 100%;
+}
+
+.arrow {
+  padding: 10px;
+  margin: auto;
+}
+.arrow:hover {
+  background-color: LightGray;
+}
